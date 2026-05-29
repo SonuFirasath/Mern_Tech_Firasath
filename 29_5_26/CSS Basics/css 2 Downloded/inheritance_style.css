@@ -1,0 +1,18 @@
+div {
+  background-color: yellow;
+}
+
+/* form{
+    background-color: red;
+}
+
+p{
+    background-color: aquamarine;
+} */
+
+/* input and button does not inherit the properties from its parents so if we want our inputs and buttons to inherit those prpperties then we need to specify them to inherit them from parent */
+
+input,
+button {
+  background-color: inherit;
+}
