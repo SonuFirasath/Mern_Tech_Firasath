@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Labels in Forms</title>
+  </head>
+  <body>
+    <!-- Label element represents a caption for an item in a user interface .... and it is important add label .... 
+
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/label 
+    
+    Refered this document for label info ....  -->
+
+    <!-- "id" is the unique name that is given to an element .... in the label in "for" section if we give the id value of any input it forms a connection with that particular input .... these two values needs to be same to form a connection .... -->
+
+    <form action="/action">
+      <div>
+        <label for="username">Username :</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter Username"
+        />
+      </div>
+
+      <div>
+        <label for="password">Password :</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter Your Password"
+        />
+      </div>
+
+      <div>
+        <label for="age">Enter Age : </label>
+        <input type="number" id="age" placeholder="Enter age" />
+      </div>
+
+      <button>Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
