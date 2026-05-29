@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+    <script src="studentForm_validation.js" defer></script>
+  </head>
+  <body>
+    <h2>Student Registration Form</h2>
+    <h4>Fill in the details below to register</h4>
+
+    <form action="/action" onsubmit="validateSubjects()">
+      <div>
+        <label for="fname">First name :</label>
+        <input
+          type="text"
+          name="fname"
+          id="fname"
+          placeholder="e.g. F G"
+          required
+        />
+
+        &nbsp; &nbsp; &nbsp;
+        <label for="lname">Last name :</label>
+        <input
+          type="text"
+          name="lname"
+          id="lname"
+          placeholder="e.g. Firasath"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email address : </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="student@example.com"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <label>Gender</label>
+        <br />
+        <input type="radio" name="gender" id="male" value="male" required />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="others" value="others" />
+        <label for="others">Others</label>
+      </div>
+      <br />
+      <div>
+        <label>Course</label>
+        <br />
+        <select name="course" id="course">
+          <option value="EEE">EEE</option>
+          <option value="CSE" selected>CSE</option>
+          <option value="ECE">ECE</option>
+          <option value="Mech">Mechanical</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="year">Year of study</label>
+
+        <input type="range" min="1" max="4" name="year" id="year" />
+      </div>
+      <br />
+      <div>
+        <label>Subjects Enrolled</label>
+        <br />
+        <input type="checkbox" name="subjects" id="maths" value="maths" />
+        <label for="maths">Maths</label>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="checkbox" name="subjects" id="physics" value="physics" />
+        <label for="physics">Physics</label>
+        <br />
+        <input
+          type="checkbox"
+          name="subjects"
+          id="chemistry"
+          value="chemistry"
+        />
+        <label for="chemistry">Chemistry</label>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <input type="checkbox" name="subjects" id="cs" value="cs" />
+        <label for="cs">Computer Science</label>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="intro">About Yourself</label>
+        <br />
+        <textarea
+          name="intro"
+          id="intro"
+          placeholder="Write a short bio or any additional info about yourself"
+          rows="10"
+          cols="100"
+          maxlength="100"
+        ></textarea>
+      </div>
+
+      <button>Register</button>
+    </form>
+  </body>
+</html>
