@@ -1,0 +1,27 @@
+#container {
+  height: 300px;
+  width: 80%;
+  background-color: azure;
+  border: 2px solid black;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row-reverse;
+  /* justify-content: flex-start; */
+  /* flex-wrap: wrap; */
+  align-items: flex-end;
+  /* justify-content: flex-end; */
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  color: beige;
+  font-size: 2em;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  /* position: relative;
+    top: 50px; */
+}
