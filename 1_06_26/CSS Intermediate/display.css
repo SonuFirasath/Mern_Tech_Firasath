@@ -1,0 +1,30 @@
+h2 {
+  display: inline;
+  background-color: pink;
+}
+
+/* span{
+    display: block;
+    background-color: greenyellow;
+} */
+
+div {
+  color: hotpink;
+}
+
+span {
+  /* background-color: pink; */
+  border: 2px solid black;
+  height: 100px;
+  width: 200px;
+  padding: 50px;
+  margin: 50px;
+}
+
+div {
+  border: 2px solid black;
+  height: 100px;
+  width: 200px;
+  padding: 50px;
+  margin: 50px;
+}

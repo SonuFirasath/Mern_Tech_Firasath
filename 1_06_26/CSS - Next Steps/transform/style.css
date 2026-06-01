@@ -1,0 +1,50 @@
+section {
+  margin-top: 100px;
+}
+
+div {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background-color: limegreen;
+  border: 2px solid black;
+  margin: 10px auto;
+}
+
+div:nth-of-type(2n) {
+  background-color: yellow;
+}
+
+div:nth-of-type(3n) {
+  background-color: orange;
+}
+
+.one {
+  transform: rotate(45deg);
+}
+
+.two {
+  /* transform: scale(2); */
+  transform: scale(0.5, 2);
+}
+
+.three {
+  transform: translate(-200px, 100px);
+}
+
+.four {
+  transform: skew(-40deg);
+}
+
+.five {
+  transform: rotate(40deg) translate(120px) skew(40deg);
+}
+
+.six {
+  transform: translateY(100px);
+
+  box-shadow: 2px 2px 8px black;
+}
+#pt-ext-selection {
+  display: none;
+}

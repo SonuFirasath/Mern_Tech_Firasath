@@ -1,0 +1,45 @@
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;
+} */
+
+h1 {
+  border: 2px solid black;
+  width: 50%;
+  text-align: right;
+}
+
+#outer {
+  height: 500px;
+  width: 500px;
+  background-color: hotpink;
+  font-size: 30px;
+}
+
+#inner {
+  height: 30%;
+  width: 30%;
+  margin-left: 30%;
+  background-color: lightgreen;
+  font-size: 2em;
+  padding: 1.5em;
+}
+
+button {
+  font-size: 25px;
+  border-radius: 20px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+section {
+  font-size: 15px;
+}
+
+div {
+  font-size: 2rem;
+}
