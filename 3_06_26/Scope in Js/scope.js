@@ -99,3 +99,10 @@ let even = arr.filter((el)=>{
 })
 
 console.log(even);
+
+
+let sum = function (a , b = 4){
+  console.log(a+b);
+}
+
+sum(2); // -> 6
