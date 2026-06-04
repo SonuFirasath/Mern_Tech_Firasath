@@ -1,0 +1,27 @@
+body {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+div {
+  height: 300px;
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 2rem;
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-weight: bold !important;
+  border: 2px solid black !important;
+}
+
+select {
+  border: 2px solid black !important;
+}
