@@ -4,6 +4,7 @@ body {
 
 #mainImg {
   width: 35%;
+  height: 30rem;
 }
 
 .box {
@@ -25,4 +26,8 @@ body {
 
 #description {
   background-color: antiquewhite;
+}
+
+.green{
+  
 }
