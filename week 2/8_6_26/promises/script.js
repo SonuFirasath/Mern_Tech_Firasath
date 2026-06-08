@@ -55,16 +55,16 @@ function savetoDb(data) {
 
 savetoDb("mikey")
   .then((result) => {
-    console.log("Success 1 : Promise is resolved : ",result);
+    console.log("Success 1 : Promise is resolved : ", result);
     return savetoDb("Firasath");
   })
   .then((result) => {
-    console.log("Success2 : Promise is resolved : ",result);
+    console.log("Success2 : Promise is resolved : ", result);
     return savetoDb("Sonu");
   })
-  .then((result)=>{
-    console.log("Success 3 : Promise is resolved : ",result);
+  .then((result) => {
+    console.log("Success 3 : Promise is resolved : ", result);
   })
   .catch((error) => {
-    console.log("Failure 1: Promise is rejected : ",error);
+    console.log("Failure 1: Promise is rejected : ", error);
   });
