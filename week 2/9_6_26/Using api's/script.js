@@ -45,14 +45,14 @@ let div = document.querySelector(".container-fluid");
 
 let btn = document.querySelector(".btn");
 
-btn.addEventListener("click", async ()=>{
-    let fact = await getFact();
-    console.log(fact);
-    let p = document.createElement("p");
-    p.innerText = fact;
-    p.style.border = "2px solid black";
-    div.append(p);
-})
+btn.addEventListener("click", async () => {
+  let fact = await getFact();
+  console.log(fact);
+  let p = document.createElement("p");
+  p.innerText = fact;
+  p.style.border = "2px solid black";
+  div.append(p);
+});
 
 async function getFact() {
   try {
