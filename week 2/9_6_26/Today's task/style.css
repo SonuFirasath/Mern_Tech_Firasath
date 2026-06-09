@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.container-fluid{
+    margin-top: 5rem;
+}
+
+.main-img{
+    border-radius: 3rem;
+    width: 720px;
+    height: 404px;
+}
+
+.btn{
+    margin: 5rem;
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white !important;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+@keyframes animator{
+    from{
+        width: 100px;
+        height: 404px;
+    }
+    to{
+        width: 720px;
+        height: 404px;
+    }
+}
