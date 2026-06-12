@@ -6,13 +6,13 @@ function CompanyCard() {
     <div className="company-card">
       <h1>Chimera Technologies</h1>
 
-      <p className="tagline">
-        Innovating the Future with Technology
-      </p>
+      <p className="tagline">Innovating the Future with Technology</p>
 
       <h3>About Us</h3>
       <p className="para">
-        At Chimera Technologies, we are driven by a mission to make technology a force for good, ensuring that our solutions create real value for our clients and their communities.
+        At Chimera Technologies, we are driven by a mission to make technology a
+        force for good, ensuring that our solutions create real value for our
+        clients and their communities.
       </p>
 
       <h3>Services</h3>

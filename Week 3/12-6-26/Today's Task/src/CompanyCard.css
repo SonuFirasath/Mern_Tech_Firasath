@@ -31,19 +31,19 @@ h3 {
   font-style: italic;
 }
 
-p{
-    color: rgba(0, 0, 0, 0.845);
+p {
+  color: rgba(0, 0, 0, 0.845);
 }
 
-ul li{
-    color: rgba(0, 0, 0, 0.845);
+ul li {
+  color: rgba(0, 0, 0, 0.845);
 }
 
-ul{
-    margin-top: 0px;
-    margin-bottom: 2rem;
+ul {
+  margin-top: 0px;
+  margin-bottom: 2rem;
 }
 
-.para{
-    margin-bottom: 2rem;
+.para {
+  margin-bottom: 2rem;
 }
