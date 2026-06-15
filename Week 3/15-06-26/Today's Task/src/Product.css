@@ -1,0 +1,21 @@
+body{
+    margin-top: 200px;
+}
+
+.Product{
+    border: 1px solid black;
+    border-radius: 14px;
+    margin-bottom: 15px;
+    /* padding: 0 10px 0 10px; */
+    margin-left: 15px;
+    width: 200px;
+    height: 202px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#like{
+    position: relative;
+    left: 80px;
+    top: 10px;
+}
