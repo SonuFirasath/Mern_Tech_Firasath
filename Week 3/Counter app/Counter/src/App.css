@@ -1,0 +1,81 @@
+/* Page layout */
+.page {
+  font-family: 'Inter', sans-serif;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Card */
+.counter-container {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  padding: 3rem;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Heading */
+.counter-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+/* Count number */
+.count-display {
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 2rem;
+  transition: color 0.3s ease;
+}
+
+.count-positive { color: #10b981; }
+.count-negative { color: #ef4444; }
+.count-zero     { color: #1f2937; }
+
+/* Buttons */
+.btn-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  outline: none;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-decrement { background-color: #fee2e2; color: #b91c1c; }
+.btn-decrement:hover  { background-color: #fecaca; }
+.btn-decrement:active { transform: scale(0.95); }
+
+.btn-reset { background-color: #f3f4f6; color: #4b5563; }
+.btn-reset:hover  { background-color: #e5e7eb; }
+.btn-reset:active { transform: scale(0.95); }
+
+.btn-increment { background-color: #d1fae5; color: #047857; }
+.btn-increment:hover  { background-color: #a7f3d0; }
+.btn-increment:active { transform: scale(0.95); }

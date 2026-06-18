@@ -1,0 +1,121 @@
+/* ── HERO ── */
+.hero {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 64px);
+  overflow: hidden;
+}
+
+.hero__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(245, 244, 242, 0.72) 45%,
+    transparent 100%
+  );
+  display: flex;
+  align-items: center;
+}
+
+.hero__content {
+  padding-left: 72px;
+  max-width: 600px;
+}
+
+.hero__title {
+  font-family: var(--font-display);
+  font-size: clamp(42px, 6vw, 72px);
+  font-weight: 800;
+  line-height: 1.0;
+  letter-spacing: 0.01em;
+  color: var(--black);
+  margin-bottom: 16px;
+}
+
+.hero__subtitle {
+  font-size: 15px;
+  font-weight: 300;
+  color: var(--black);
+  letter-spacing: 0.04em;
+  margin-bottom: 32px;
+}
+
+.hero__cta {
+  display: inline-block;
+  background-color: var(--sage);
+  color: var(--white);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  padding: 14px 28px;
+  transition: background-color 0.25s ease;
+}
+
+.hero__cta:hover {
+  background-color: #58674c;
+}
+
+/* ── FEATURED COLLECTIONS ── */
+.collections {
+  padding: 80px 48px 100px;
+  background-color: var(--white);
+}
+
+.collections__heading {
+  text-align: center;
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 0.06em;
+  color: var(--black);
+  margin-bottom: 40px;
+}
+
+.collections__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.collections__item {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  cursor: pointer;
+}
+
+.collections__img-wrap {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background-color: var(--bg);
+}
+
+.collections__img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.collections__item:hover .collections__img-wrap img {
+  transform: scale(1.04);
+}
+
+.collections__label {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: var(--black);
+  text-align: center;
+}
